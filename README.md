@@ -33,8 +33,14 @@ Before you begin, ensure you have the following installed:
    cd Attyre_Backend_Assignment
    ```
 
-1. **Create a virtual environment:**
+2. **Create a virtual environment:**
 
    ```bash
    python -m venv venv
+   ```
+
+3. **Activate the virtual environment:**
+
+   ```bash
+   venv\Scripts\activate
    ```
