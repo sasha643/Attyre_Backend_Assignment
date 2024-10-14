@@ -30,4 +30,4 @@ Before you begin, ensure you have the following installed:
 
    ```bash
    git clone https://github.com/sasha643/Attyre_Backend_Assignment.git
-   
+   cd Attyre_Backend_Assignment
