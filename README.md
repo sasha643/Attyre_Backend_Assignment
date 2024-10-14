@@ -9,9 +9,6 @@
   - [Installation](#installation)
   - [Running the Project](#running-the-project)
 - [API Endpoint](#api-endpoint)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Project Description
 
