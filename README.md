@@ -33,9 +33,8 @@ Before you begin, ensure you have the following installed:
    cd Attyre_Backend_Assignment
    ```
 
-1. **Clone the repository:**
+1. **Create a virtual environment:**
 
    ```bash
-   git clone https://github.com/sasha643/Attyre_Backend_Assignment.git
-   cd Attyre_Backend_Assignment
+   python -m venv venv
    ```
