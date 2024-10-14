@@ -44,3 +44,9 @@ Before you begin, ensure you have the following installed:
    ```bash
    venv\Scripts\activate
    ```
+
+4. **Activate the virtual environment:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
