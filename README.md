@@ -36,6 +36,3 @@ Before you begin, ensure you have the following installed:
 
   ```bash
   python -m venv venv```
-
-
-   
