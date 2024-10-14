@@ -30,9 +30,11 @@ Before you begin, ensure you have the following installed:
 
    ```bash
    git clone https://github.com/sasha643/Attyre_Backend_Assignment.git
-   cd Attyre_Backend_Assignment```
+   cd Attyre_Backend_Assignment
+   ```
 
 2. **Create a virtual environment:**
 
   ```bash
-  python -m venv venv```
+   python -m venv venv
+  ```
