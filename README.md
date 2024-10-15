@@ -50,7 +50,26 @@ Before you begin, ensure you have the following installed:
    ```bash
    pip install -r requirements.txt
    ```
+   
 5. **Set up your database:**
 
-   - Create a PostgreSQL database for your project.
+   - Create a PostgreSQL database.
    - Update the database settings in `settings.py` with your database credentials.
+
+6. **Run migrations:**
+
+   ```bash
+   python manage.py migrate
+   ```
+   
+7. **Run migrations:**
+
+   ```bash
+   python manage.py migrate
+   ```
+
+8. **Create a superuser:**
+
+   ```bash
+   python manage.py createsuperuser
+   ```
