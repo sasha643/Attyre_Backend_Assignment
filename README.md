@@ -69,7 +69,6 @@ Before you begin, ensure you have the following installed:
 
    ```bash
    python manage.py migrate
-   ```
 
 8. **Create a superuser:**
 
