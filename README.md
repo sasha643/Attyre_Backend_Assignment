@@ -9,6 +9,7 @@
   - [Installation](#installation)
   - [Running the Project](#running-the-project)
 - [API Endpoint](#api-endpoint)
+- [API Example](#api-example)
 
 ## Project Description
 
@@ -100,4 +101,76 @@ Before you begin, ensure you have the following installed:
 
 ## API Example:
 
+### Request
 
+**GET** `http://127.0.0.1:8000/videos/?limit=10&page=1`
+
+### Response
+
+```json
+{
+  "videos": [
+    {
+      "id": 1,
+      "video_url": "https://example.com/video1.mp4",
+      "thumbnail_url": "https://example.com/thumbnail1.jpg",
+      "description": "A great video about something interesting.",
+      "view_count": 1000,
+      "duration": 300,
+      "created_at": "2024-10-15T12:00:00Z",
+      "user": {
+        "id": 1,
+        "username": "john_doe",
+        "display_name": "John Doe",
+        "profile_picture_url": "https://example.com/profile.jpg",
+        "bio": "Just a guy who likes making videos.",
+        "followers_count": 150,
+        "verified": true
+      },
+      "products": [
+        {
+          "id": 1,
+          "name": "Cool Product",
+          "price": 29.99,
+          "original_price": 39.99,
+          "discount_percentage": 25.0,
+          "image_url": "https://example.com/product.jpg",
+          "timestamp": "2024-10-10T12:00:00Z",
+          "currency": "USD",
+          "in_stock": true,
+          "store": {
+            "id": 1,
+            "name": "Awesome Store",
+            "logo_url": "https://example.com/store_logo.jpg"
+          },
+          "variants": [
+            {
+              "id": 1,
+              "name": "Size",
+              "options": ["S", "M", "L"]
+            }
+          ]
+        }
+      ],
+      "likes_count": 150,
+      "comments_count": 20,
+      "shares_count": 5,
+      "is_liked": true,
+      "is_bookmarked": false,
+      "music": {
+        "id": 1,
+        "name": "Cool Song",
+        "artist": "Cool Artist",
+        "cover_url": "https://example.com/album_cover.jpg"
+      },
+      "hashtags": ["#cool", "#video", "#entertainment"]
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total_pages": 5,
+    "total_videos": 50,
+    "next_cursor": "http://127.0.0.1:8000/videos/?limit=10&page=2"
+  }
+}
