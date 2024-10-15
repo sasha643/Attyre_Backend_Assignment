@@ -45,7 +45,7 @@ Before you begin, ensure you have the following installed:
    venv\Scripts\activate
    ```
 
-4. **Activate the virtual environment:**
+4. **Install dependencies:**
 
    ```bash
    pip install -r requirements.txt
