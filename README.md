@@ -120,8 +120,8 @@ Before you begin, ensure you have the following installed:
       "created_at": "2024-10-15T12:00:00Z",
       "user": {
         "id": 1,
-        "username": "john_doe",
-        "display_name": "John Doe",
+        "username": "Saurabh121102",
+        "display_name": "Saurabh Sharma",
         "profile_picture_url": "https://example.com/profile.jpg",
         "bio": "Just a guy who likes making videos.",
         "followers_count": 150,
