@@ -163,7 +163,7 @@ Before you begin, ensure you have the following installed:
         "artist": "Cool Artist",
         "cover_url": "https://example.com/album_cover.jpg"
       },
-      "hashtags": ["#cool", "#video", "#entertainment"]
+      "hashtags": ["cool", "video", "entertainment"]
     }
   ],
   "pagination": {
