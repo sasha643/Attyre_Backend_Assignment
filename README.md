@@ -10,6 +10,7 @@
   - [Running the Project](#running-the-project)
 - [API Endpoint](#api-endpoint)
 - [API Example](#api-example)
+- [Swagger UI](#swagger-ui)
 
 ## Project Description
 
@@ -174,3 +175,10 @@ Before you begin, ensure you have the following installed:
     "next_cursor": "http://127.0.0.1:8000/videos/?limit=10&page=2"
   }
 }
+```
+
+## Swagger UI
+
+The Swagger UI provides a user-friendly interface for exploring the API endpoints. Here’s a screenshot of the Swagger UI:
+
+![Swagger UI](assets/swagger-screenshot.png)
