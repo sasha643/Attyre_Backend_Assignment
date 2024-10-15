@@ -181,4 +181,4 @@ Before you begin, ensure you have the following installed:
 
 The Swagger UI provides a user-friendly interface for exploring the API endpoints. Here’s a screenshot of the Swagger UI:
 
-![Swagger UI](assets/swagger-screenshot.png)
+![Swagger UI](swagger.jpg)
