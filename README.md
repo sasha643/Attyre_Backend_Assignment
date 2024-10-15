@@ -58,19 +58,16 @@ Before you begin, ensure you have the following installed:
 
    - Create a PostgreSQL database.
    - Update the database settings in `settings.py` with your database credentials.
+     
 
 6. **Run migrations:**
 
    ```bash
    python manage.py migrate
    ```
-   
-7. **Run migrations:**
 
-   ```bash
-   python manage.py migrate
 
-8. **Create a superuser:**
+7. **Create a superuser:**
 
    ```bash
    python manage.py createsuperuser
