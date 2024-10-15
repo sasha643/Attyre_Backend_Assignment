@@ -52,5 +52,5 @@ Before you begin, ensure you have the following installed:
    ```
 5. **Set up your database:**
 
-       -Create a PostgreSQL database for your project.
-       -Update the database settings in settings.py with your database credentials.
+   - Create a PostgreSQL database for your project.
+   - Update the database settings in `settings.py` with your database credentials.
