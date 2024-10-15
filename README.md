@@ -50,3 +50,5 @@ Before you begin, ensure you have the following installed:
    ```bash
    pip install -r requirements.txt
    ```
+5. **Set up your database:**
+   
