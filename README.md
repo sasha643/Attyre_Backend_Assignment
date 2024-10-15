@@ -74,3 +74,13 @@ Before you begin, ensure you have the following installed:
    ```bash
    python manage.py createsuperuser
    ```
+
+### Running the Project
+
+8. **Run Redis in Docker:**
+
+   - Make sure Docker is installed and running, then run the following command to start Redis:
+     
+   ```bash
+   docker run -d -p 6379:6379 redis
+   ```
