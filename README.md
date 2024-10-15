@@ -51,4 +51,6 @@ Before you begin, ensure you have the following installed:
    pip install -r requirements.txt
    ```
 5. **Set up your database:**
-   
+
+       -Create a PostgreSQL database for your project.
+       -Update the database settings in settings.py with your database credentials.
