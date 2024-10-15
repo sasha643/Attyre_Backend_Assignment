@@ -23,6 +23,7 @@ Before you begin, ensure you have the following installed:
 - Python 3.8 or higher
 - pip (Python package manager)
 - PostgreSQL (or another database of your choice)
+- Docker (for Redis)
 
 ### Installation
 
