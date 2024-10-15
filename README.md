@@ -91,4 +91,4 @@ Before you begin, ensure you have the following installed:
 
 3. **Access the API:**
 
-   - Open your browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/api/docs/) to access the API.
+   - Open your browser and go to [http://127.0.0.1:8000/api/docs/](http://127.0.0.1:8000/api/docs/) to access the API.
