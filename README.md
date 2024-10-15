@@ -97,3 +97,7 @@ Before you begin, ensure you have the following installed:
 ### API Endpoint
 
 - GET /videos/ - Retrieves a paginated list of videos.
+
+## API Example:
+
+
